@@ -7,7 +7,7 @@
 
 body {
     background-color: #d9dcd6;
-    margin: auto;
+    position:relative;
 }
 
 .header {
@@ -18,39 +18,41 @@ body {
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* Add italic font to header for emphasis and increase font size. 
+**Edit- suggest italic to customer but did not edit due to not wanting to change branding of customer */
 .header h1 {
     display: inline-block;
-    font-size:250%;
+    font-size:300%;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-style:italic;
 }
-
+/* Add slightly different font weight for the SEO span to stand out. */
 .header h1 .SEO {
     color: #d9dcd6;
     font-weight:bolder;
 }
 
+/* Change font size and margin percentage for a aesthetically pleasing interface. */
 .header div {
+    max-width: 100%;
     padding-top: .7%;
-    margin-top: 5%
+    margin-top: 2;
     margin-right: 2%;
-    float: right;
+    float:right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 102%;
+    font-size: 120%;
     }
-
 
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/* Add element that changes color when a user's mouse hovers for accessibility functionality  */
 a {
     color: #ffffff;
     text-decoration: none;
 }
-.link { color: #ffffff; 
+.link { 
+    color: #ffffff; 
 } 
 .link:hover { color: rgb(88, 11, 11); 
 } 
@@ -58,7 +60,6 @@ a {
 
 p {
     font-size: 16px;
-    text-overflow:clip;
 }
 
 .hero {
@@ -69,24 +70,26 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/* Add height element as auto so it conforms to it's container */
 .float-left {
     float: left;
     margin-right: 25px;
     height: auto;
 }
-
+/* Add height element as auto so it conforms to  it's container. */
 .float-right {
     float: right;
     margin-left: 25px;
     height:auto;
 }
-
+/* Adjust left margin to close gap between expboxes and benefits box. */
 .content {
     width: 70%;
     display: inline-block;
     margin-left: 70px;
 }
+/* Rename to suit general content of all explanation boxes. */
+/* Reduce original duplicate coding written for each section down to a single id/class to make more concise code. */
 .expboxes {
     margin-bottom: 20px;
     padding: 50px;
@@ -94,33 +97,36 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
-    object-fit:contain;
+    /* object-fit:contain; Trying to make responsive content but not needed in this section.*/
 }
 
+/* Reduce original duplicate coding written for each section down to a single id/class to make more concise code. */
 .expboxes img {
     max-height: 100%;
-    object-fit:contain;
 }
-
+/* Reduce original duplicate coding written for each section down to a single id/class to make more concise code. */
 .expboxes h2 {
     margin-bottom: 20px;
     font-size: 36px;
     width:100%;
-    -o-object-fit: contain ;
 }
 
-
+/* Re-order code so it follows HTML logic and makes for easier flow/utilization for future coders. */
+/* Change background color to match expboxes color for color coordination */
+/* Adjust height based on expbox height plus margin so height matches. */
 .benefits {
-    margin-right: 30px;
+    margin-right: 70px;
     padding: 20px;
     clear: both;
     float: right;
-    width: 20%;
+    width: 19%;
     height: 940px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
 }
-
+/* Use align-items to square off each paragraph with expboxes for a more visually appealing and coherent look. */
+/* Consolidate class identifiers to reduce duplicate/excessive code and clean up. */
+/* Add margins to initial tag and adjust based on visual appeal. */
 .benefit-lead {
     margin: 5px 10px 15px 5px;
     color: #ffffff;
@@ -139,7 +145,8 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* Add background color to give page closure with the same background as the header. */
+/* Adjusted sizing based on visual appeal. */
 .footer {
     font-size: 12px;
     padding: 30px;
