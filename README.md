@@ -25,8 +25,6 @@ https://drive.google.com/file/d/1r7VMcZzrdpfkicZ7REMHmrZosSw5vkkR/view
 Video 3- Website in it's entirety:
 https://drive.google.com/file/d/1-pqbtbb6SiGtO5RfDMOY-2elm9sTfYIX/view
 
-Screenshot 1, header-
-
 ## Installation
 Tools needed to view webpage:
 1. Access to the Internet- Ex. Google Chrome, Microsoft Edge, etc.
